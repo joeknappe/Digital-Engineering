@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  
+  .hero-section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+  }
+  
+  .nav-link-program-speaker {
+    width: 190px;
+    margin-top: 15px;
+    background-color: #fff;
+    color:#000;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .nav-link-program-speaker:hover {
+    color: #777;
+  }
+  
+  .nav-link-application {
+    width: 190px;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -10px #000;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #00ffd9;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+  
+  }
+  
+  .nav-link-application:hover {
+    background-color: #00ffd9;
+    color: #000;
+  }
+  
+  .nav-link-application:active {
+    box-shadow: 2px 2px 20px -13px #000;
+  }
+  
+  
+  .card-dark-container {
+    max-width: 600px;
+    margin-top: -50px;
+    padding: 80px;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -7px #000;
+  }
+  
+  .card-dark-container.stack {
+    margin-top: 50px;
+  }
+  
+  .card-dark-container.hero {
+    margin-top: 0px;
+  }
+  
+  .heading-light {
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+  }
+  
+  .paragraph-light {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .bold-green-text {
+    color: #00ffd9;
+    font-weight: 700;
+  }
+  
+  .about-section {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .university-columns {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .university-logo-column {
+    padding: 15px;
+  }
+  
+  .university-logo {
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  .content-section {
+    height: 100%;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -7px #000;
+  }
+  
+  .universities-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 15px -10px #000;
+  }
+  
+  .heading-div {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 80px 80px 50px;
+  }
+  
+  .content-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 100%;
+    max-width: 600px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: inset 1px 0 20px -7px #000;
+  }
+  
+  
+  .content-heading {
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-left: 80px;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+  }
+  
+  .bold-text {
+    font-weight: 700;
+  }
+  
+  .content-image {
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    max-width: none;
+    box-shadow: 1px 1px 20px -7px #000;
+    object-fit: cover;
+    object-position: 50% 100%;
+  }
+  
+  .content-paragraph {
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .content-paragraph.schedule {
+    margin-top: 50px;
+  }
+  
+  .application-section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-span {
+    color: #00ffd9;
+  }
+  
+  .form {
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  .submit-button {
+    width: 190px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #00ffd9;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .submit-button:active {
+    box-shadow: inset 1px 1px 20px -10px #000;
+    border-color: #00ffd9;
+    outline: 0;
+  }
+
+  .text-field {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .text-field:focus {
+    box-shadow: inset 1px 1px 20px -10px #000;
+  }
+  
+  .text-field-2 {
+    height: 50px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+
+
+  .black-div {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    width: 600px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -13px #000;
+  }
+  
+  .icon-image {
+    display: block;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .nav-link-home {
+    width: 190px;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -10px #000;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #00ffd9;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .nav-link-home:hover {
+    background-color: #00ffd9;
+    color: #000;
+  }
+  
+  .nav-link-home:active {
+    box-shadow: 2px 2px 20px -13px #000;
+  }
+  
+  .text-span-2 {
+    color: #00ffd9;
+  }
+  
+  .content-paragraph-schedule {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .content-paragraph-schedule.schedule {
+    margin-top: 50px;
+  }
+  
+  .content-image-schedule {
+    display: inline-block;
+    width: 700px;
+    max-width: none;
+    box-shadow: 1px 1px 20px -7px #000;
+    object-fit: contain;
+    object-position: 50% 100%;
+  }
+  
+  .pictures-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-rows: auto auto;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -7px #000;
+  }
+  
+  .speaker-image {
+    display: block;
+    width: 325px;
+    height: 250px;
+    max-width: none;
+    object-fit: cover;
+  }
+  
+  .div-block {
+    max-width: 600px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  
+  .div-block-2 {
+    height: 30vh;
+  }
+  
+  .black-div-2 {
+    position: static;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    width: 600px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+    background-color: #000;
+    box-shadow: 1px 1px 20px -13px #000;
+  }
+  
+  #our-speaker {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 2;
+    grid-column-end: span 2;
+  }
+  
+  #steve-jobs {
+    justify-self: end;
+  }
+  
+  #angela {
+    justify-self: start;
+  }
+  
+  #elon {
+    justify-self: end;
+  }
+  
+  #rick {
+    justify-self: start;
+  }
+  
+  #our-supporters {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 2;
+    grid-column-end: span 2;
+  }
+  
+  #steve-jobs-2 {
+    justify-self: end;
+  }
+  
+  #angela-2 {
+    justify-self: start;
+  }
+  
+  #elon-2 {
+    justify-self: end;
+  }
+  
+  #rick-2 {
+    justify-self: start;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  }
+  
+  .input:focus {
+    border-color: #00ffd9;
+    outline: 0;
+  }
